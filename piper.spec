@@ -62,4 +62,4 @@ https://github.com/libratbag/libratbag/wiki/Devices
 %{_iconsdir}/hicolor/scalable/apps/org.freedesktop.Piper.svg
 %{_datadir}/metainfo/org.freedesktop.Piper.appdata.xml
 %{_mandir}/man1/*
-%python_sitelib/%{name}
+%{python_sitelib}/%{name}
