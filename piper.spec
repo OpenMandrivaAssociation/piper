@@ -1,5 +1,5 @@
 Name:           piper
-Version:        0.5.1
+Version:        0.6
 Release:        1
 Summary:        GTK application to configure gaming devices
 Group:          System/Configuration
