@@ -1,6 +1,6 @@
 Name:           piper
 Version:        0.5.1
-Release:        1
+Release:        2
 Summary:        GTK application to configure gaming devices
 Group:          System/Configuration
 License:        GPLv2+
