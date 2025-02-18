@@ -1,6 +1,6 @@
 Name:           piper
-Version:        0.5.1
-Release:        3
+Version:        0.8
+Release:        1
 Summary:        GTK application to configure gaming devices
 Group:          System/Configuration
 License:        GPLv2+
@@ -25,6 +25,8 @@ Requires:       python3dist(evdev)
 Requires:       python3dist(lxml)
 Requires:       python3dist(pycairo)
 Requires:       python3dist(pygobject)
+Requires:       python-gobject3
+Requires:       python-gi
 
 BuildArch:      noarch
 
@@ -60,6 +62,7 @@ https://github.com/libratbag/libratbag/wiki/Devices
 %{_datadir}/applications/org.freedesktop.Piper.desktop
 %{_datadir}/%{name}
 %{_iconsdir}/hicolor/scalable/apps/org.freedesktop.Piper.svg
+%{_iconsdir}/hicolor/symbolic/apps/org.freedesktop.Piper-symbolic.svg
 %{_datadir}/metainfo/org.freedesktop.Piper.appdata.xml
 %{_mandir}/man1/*
 %{python_sitelib}/%{name}
