@@ -1,5 +1,5 @@
 Name:           piper
-Version:        0.6
+Version:        0.8
 Release:        1
 Summary:        GTK application to configure gaming devices
 Group:          System/Configuration
@@ -25,6 +25,8 @@ Requires:       python3dist(evdev)
 Requires:       python3dist(lxml)
 Requires:       python3dist(pycairo)
 Requires:       python3dist(pygobject)
+Requires:       python-gobject3
+Requires:       python-gi
 
 BuildArch:      noarch
 
