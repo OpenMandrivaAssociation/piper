@@ -27,6 +27,7 @@ Requires:       python3dist(pycairo)
 Requires:       python3dist(pygobject)
 Requires:       python-gobject3
 Requires:       python-gi
+Requires:       pkgconfig(gtk+-3.0)
 
 BuildArch:      noarch
 
